@@ -4,6 +4,8 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
+    "start": "node dist/app.ts", 
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
