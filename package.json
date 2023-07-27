@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/app.js", 
     "build": "./node_modules/typescript/bin/tsc",
-    "server" : "./app.ts",
+    "server" : "tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
