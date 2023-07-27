@@ -54,7 +54,7 @@ router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
 }));
 //searching, sorting and pagination
 router.get('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    console.log('I am hit');
+    // console.log('I am hit');
     try {
         const { search, sort, page, limit } = req.query;
         // Create a sortOptions object with default values
